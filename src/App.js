@@ -1,8 +1,10 @@
 import React from 'react'
 import './App.css'
 
+import lucas from './assets/lucas.jpg'
+
 function App() {
-  return <h1>Hello Levy</h1>
+  return <img src={lucas}></img>
 }
 
 export default App
