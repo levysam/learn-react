@@ -1,10 +1,10 @@
 import React from 'react'
 import './App.css'
 
-import lucas from './assets/lucas.jpg'
+import TechList from './components/techList'
 
 function App() {
-  return <img src={lucas}></img>
+  return <TechList />
 }
 
 export default App
