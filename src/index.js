@@ -1,4 +1,5 @@
-import react from 'react'
+import React from 'react'
 import { render } from 'react-dom'
+import App from './App'
 
-render(<h2>Hello world</h2>, document.getElementById('app'))
+render(<App />, document.getElementById('app'))
